@@ -5,6 +5,6 @@ const utilsController = require("../controllers/utilsController");
 router.post("/clone", utilsController.cloneObject);
 router.post("/flatten", utilsController.flattenArray);
 router.post("/rotate", utilsController.rotateMatrix);
-router.post("/thorttle", utilsController.throttle);
+router.get("/thorttle", utilsController.throttle);
 
 module.exports = router;
